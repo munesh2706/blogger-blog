@@ -1,0 +1,59 @@
+    /* Mobile-first premium typography */
+    body {
+        font-family:  "inherit", "Georgia", "Times New Roman", serif;
+        margin: 0;
+        padding: 0;
+        background: #faf7f2;
+        color: #2c2c2c;
+        line-height: 1.75;
+    }
+    header {
+        padding: 2rem 1.5rem;
+        text-align: center;
+        background: #ffffff;
+        border-bottom: 1px solid #eee;
+    }
+    header h1 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        margin: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 1.5rem;
+    }
+    .story-section h2 {
+        font-size: 1.8rem;
+        margin: 2rem 0 1rem;
+        font-weight: 700;
+        color: #111;
+    }
+    .story-section p {
+        font-size: 1.05rem;
+        margin-bottom: 1.5rem;
+        text-align: justify;
+    }
+    .highlight {
+        background: #fff1c7;
+        padding: 0.6rem 0.8rem;
+        border-left: 4px solid #ffb300;
+        margin: 1.5rem 0;
+        font-style: italic;
+    }
+    footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 0.9rem;
+        color: #555;
+        margin-top: 3rem;
+    }
+
+    /* Larger screens */
+    @media (min-width: 768px) {
+        header h1 { font-size: 2.8rem; }
+        .story-section h2 { font-size: 2.2rem; }
+        .story-section p { font-size: 1.15rem; }
+    }
+</style>
